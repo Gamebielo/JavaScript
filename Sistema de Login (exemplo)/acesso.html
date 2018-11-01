@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Página Protegida - Acesso Restrito</title>
+    <meta charset="UTF-8"> 
+    <style>
+        body {
+            background-color: #363636;
+            font-family: Helvetica;
+            color: #f1f1f1;
+            font-size: 24px;
+        }
+        
+        /*.login se refere a classe*/
+        .login {
+            font-family: cursive;
+            color: chartreuse;
+        }
+
+        p {
+            text-align: center;
+            font-weight: 100;
+        }
+
+        p a {
+            color: antiquewhite;
+            text-decoration: none; /*Sem sublinhado*/
+        }
+        /*Ao passar o mouse*/
+        p a:hover {
+            text-decoration: underline; /*Volta a ficar sublinhado*/
+            color: aquamarine;
+        }
+
+    </style>
+</head>
+<body>
+    <p class="login">Você está Logado</p>
+
+    <p>Página Protegida <br> Se esta página for apresentada, o nome e senha estavam corretos </p>
+
+    <p> <a href="formulario.html">Voltar ao Formulário</a> </p>
+</body>
+</html>
