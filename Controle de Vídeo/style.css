@@ -1,0 +1,10 @@
+.video-screen{
+    width: 540px;
+    display: block;
+    /*Display block não permite que tenha nada do lado, então joga pra baixo*/
+    margin-bottom: 10px;
+}
+
+button{
+    font-size: 20px;
+}
