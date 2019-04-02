@@ -1,3 +1,3 @@
-JavaScript
+# JavaScript
 
 Alguns projetinhos e ideias com JavaScript, HTML, CSS...
